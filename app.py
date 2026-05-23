@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Argo CD Auto Deploy Success 🚀"
+    return "GitOps Auto Deployment Success!"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
